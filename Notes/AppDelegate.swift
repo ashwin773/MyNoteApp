@@ -15,7 +15,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        //checking for location service and prompting user if no authorization done before
+        LocationService.sharedInstance.isLocationEnabled()
+
         return true
     }
 
