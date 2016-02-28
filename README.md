@@ -2,7 +2,7 @@
 
  This is  a simple note app, I tried in my free time. Written in swift language  for iOS platform. 
  
- ##Features
+ ## Features
  * Add tag for any note
  * Add/Edit/Delete Notes
  * Delete Tags (related notes delete -Optional)
